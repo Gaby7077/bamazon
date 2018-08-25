@@ -15,7 +15,7 @@ function start(){
 connection.query('SELECT * FROM Products', function(err, res){
   if(err) throw err;
 
-  console.log("Welcome to BAMazon")
+  console.log("Welcome to bamazon")
   
 
   for(var i = 0; i<res.length;i++){
